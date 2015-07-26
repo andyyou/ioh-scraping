@@ -7,7 +7,7 @@ x("http://ioh.tw/talks", "article.talk", [{
   avatar: "img@src",
   school: x(".schools", ["a"]),
   department: ".category a",
-  description: "p@html", 
+  description: "p", 
 }])
 .paginate(".pager > .next@href")
 .limit(15)
