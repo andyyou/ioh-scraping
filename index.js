@@ -9,6 +9,6 @@ x("http://ioh.tw/talks", "article.talk", [{
   department: ".category a",
   description: "p@html", 
 }])
-.paginate(".pager > .next")
+.paginate(".pager > .next@href")
 .limit(15)
 .write("result.json")
